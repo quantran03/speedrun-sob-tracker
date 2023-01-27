@@ -1,0 +1,12 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": [
+      "standard"
+     ],
+    "rules": {
+        "quotes": [2, "double", { "avoidEscape": true }],
+        "indent": ["error", 4]
+    }
+}
