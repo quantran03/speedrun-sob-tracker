@@ -203,13 +203,13 @@ thumb
 sketch
 
 ### VisualStudioCode ###
-.vscode/*
+.vscode
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
-.metals/*
+.metals
 
 # Local History for Visual Studio Code
 .history/

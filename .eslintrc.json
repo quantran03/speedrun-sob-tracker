@@ -2,8 +2,12 @@
     "env": {
         "node": true
     },
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
     "extends": [
-      "standard"
+      "eslint:recommended"
      ],
     "rules": {
         "quotes": [2, "double", { "avoidEscape": true }],
