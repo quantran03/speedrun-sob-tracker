@@ -4,7 +4,8 @@ module.exports = mongoose => {
         mongoose.Schema({
             name: {
                 type: String,
-                required: true
+                required: true,
+                maxLength: 30
             }
         },
         { timestamps: true },
