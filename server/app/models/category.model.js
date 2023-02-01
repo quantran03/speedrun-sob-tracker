@@ -1,8 +1,11 @@
 module.exports = mongoose => {
     const Category = mongoose.model(
-        "tutorial",
+        "category",
         mongoose.Schema({
-            name: String
+            name: {
+                type: String,
+                required: true
+            }
         },
         { timestamps: true },
         )
